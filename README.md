@@ -2,7 +2,7 @@
 
 ## Scénář
 Vývojový scénář k aplikaci generující SQL script pro databázové specialisty.  
-Účelem programu je načíst data získána ze vstupních souborů, které reprezentují určitý stav databáze. A na základě těchto vstupních dat provádět specifické operace. Například generování nové DB nebo upgrade stávající. Tyto operace následně vygenerují SQL script, který lze spustit.  
+Účelem programu je načíst data získána ze vstupních souborů, které reprezentují určitý stav databáze. A na základě těchto vstupních dat provádět specifické operace. Například generování scriptu pro vytvoření nové DB nebo upgrade té stávající. Tyto operace následně vygenerují SQL script, který lze spustit.  
 
 ## Požadavky
 * Jednoduchost
