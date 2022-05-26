@@ -24,22 +24,22 @@ Vývojový scénář k aplikaci generující SQL script pro databázové special
 ## Požadavky v bodech 
 
 ### Analýza
-* Návrh fungování aplikace -> 4h (1h)
-* Návrh gui (návaznost, jednoduchost, přehlednost) -> 3h (1h)
-* Návrh podoby výstupních souborů (sql script) -> 3h (1h)
+* Návrh fungování aplikace -> 4h
+* Návrh gui (návaznost, jednoduchost, přehlednost) -> 3h
+* Návrh podoby výstupních souborů (sql script) -> 3h
 
 ### Vývoj
-* Programování - parseru vstupních datových modelů -> 4h (8h)
-* Programování - metod volaných z gui a jejich návaznost na modely -> 3h (5h)
-* Programování - metod, které generují výsledný skript -> 4h (16h)
-* Programování - custom messengeru, vypisujícího hlášky do WPF -> 2h (3h)
-* Programování - instalátoru -> 2h (8h)
+* Programování - parseru vstupních datových modelů -> 4h
+* Programování - metod volaných z gui a jejich návaznost na modely -> 3h
+* Programování - metod, které generují výsledný skript -> 4h
+* Programování - custom messengeru, vypisujícího hlášky do WPF -> 2h
+* Programování - instalátoru -> 2h
 
 ### Testování
-* Testování parseru -> 2h (2h)
-* Testování generování skriptu -> 2h (4h)
-* Testování správnosti ostatních metod a messengeru -> 3h (2h)
-* Sepsání dokumentace -> 3h (2h)
+* Testování parseru -> 2h
+* Testování generování skriptu -> 2h
+* Testování správnosti ostatních metod a messengeru -> 3h
+* Sepsání dokumentace -> 3h
 
 ## Otázky
 * Lze zrychlit? (Načítání, generování, výpis, ukládání, GUI)
@@ -50,7 +50,7 @@ Vývojový scénář k aplikaci generující SQL script pro databázové special
 ## Časový plán
 100% ~ 53h  
 &ensp; 5,7% -> analýza (3h)  
-&ensp; 75,5% -> vývoj (20h)  
+&ensp; 75,5% -> vývoj (40h)  
 &ensp; 18,8% -> testování, ladění (10h)
 
 ### Analýza
